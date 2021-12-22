@@ -1,0 +1,303 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "deps/assimp/lib/IrrXMLd.lib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"ADD_COMPILE_OPTIONS",
+			"ADD_DEFINITIONS",
+			"INCLUDE_DIRECTORIES",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"deps/assimp/contrib/irrXML/CMakeLists.txt",
+			"deps/assimp/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 260,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 581,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 162,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 152,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 229,
+				"parent" : 3
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 215,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 216,
+				"parent" : 11
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 498,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /wd4127 /Zi /Ob0 /Od /RTC1 /D_DEBUG /Zi /Od -MDd"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "/MP"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "/bigobj"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "/W4"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "/WX"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "ASSIMP_BUILD_NO_C4D_IMPORTER"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "WIN32_LEAN_AND_MEAN"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "_SCL_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "_UNICODE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 10,
+					"path" : "D:/GM/CompGraphics/Projects/Scotty3D-main/out/build/x64-Debug/deps/assimp/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/GM/CompGraphics/Projects/Scotty3D-main/out/build/x64-Debug/deps/assimp"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/GM/CompGraphics/Projects/Scotty3D-main/deps/assimp/include"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/GM/CompGraphics/Projects/Scotty3D-main/deps/assimp/code"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "D:/GM/CompGraphics/Projects/Scotty3D-main/deps/assimp/."
+				},
+				{
+					"backtrace" : 12,
+					"path" : "D:/GM/CompGraphics/Projects/Scotty3D-main/deps"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "D:/GM/CompGraphics/Projects/Scotty3D-main/src"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "D:/GM/CompGraphics/Projects/Scotty3D-main/deps/assimp/contrib/zlib"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "D:/GM/CompGraphics/Projects/Scotty3D-main/out/build/x64-Debug/deps/assimp/contrib/zlib"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				5
+			]
+		}
+	],
+	"id" : "IrrXML::@ad08d77db5836a6bfc83",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "D:/GM/CompGraphics/Projects/Scotty3D-main/out/install/x64-Debug"
+		}
+	},
+	"name" : "IrrXML",
+	"nameOnDisk" : "IrrXMLd.lib",
+	"paths" : 
+	{
+		"build" : "deps/assimp/contrib/irrXML",
+		"source" : "deps/assimp/contrib/irrXML"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				6
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				5
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"path" : "deps/assimp/contrib/irrXML/CXMLReaderImpl.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "deps/assimp/contrib/irrXML/heapsort.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "deps/assimp/contrib/irrXML/irrArray.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "deps/assimp/contrib/irrXML/irrString.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "deps/assimp/contrib/irrXML/irrTypes.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "deps/assimp/contrib/irrXML/irrXML.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "deps/assimp/contrib/irrXML/irrXML.h",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

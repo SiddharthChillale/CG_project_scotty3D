@@ -1,0 +1,9 @@
+libdir=D:/GM/CompGraphics/Projects/Scotty3D-main/out/install/x64-Debug/lib
+includedir=D:/GM/CompGraphics/Projects/Scotty3D-main/out/install/x64-Debug/include
+
+Name: Scotty3D
+Description: Import various well-known 3D model formats in an uniform manner.
+Version: 5.0.1
+Libs: -L${libdir} -lassimp
+Libs.private:  
+Cflags: -I${includedir}
