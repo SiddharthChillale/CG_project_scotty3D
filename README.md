@@ -11,6 +11,8 @@ How to run :
 
 4. For Path tracer, import `cbox_lambertian.dae` . GO to the Render tab. Start the render window and render. if you want to see rays, check the `Draw Rays` checkbox.
 
-5. Open the `Scotty3D.sln` in Visual Studio for source code.
+5. For better results, Replace the spheres inside the `cbox_lambertian.dae` with a `dodecahedron.dae` model (you might to scale the dodecahedron by 0.3). Run render.
+
+7. Build according to build instructions given in https://cmu-graphics.github.io/Scotty3D/build/ for Linux, MacOS, and Windows OS.
 
 
